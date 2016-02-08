@@ -1,0 +1,136 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tiff - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1E6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/tiff.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_aux.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_close.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_codec.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_compress.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_dir.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_dirinfo.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_dirread.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_dirwrite.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_dumpmode.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_error.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_fax3.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_fax3sm.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_flush.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_getimage.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_jpeg.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_luv.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_lzw.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_next.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_open.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_packbits.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_pixarlog.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_predict.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_print.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_read.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_strip.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_swab.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_thunder.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_tile.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_version.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_warning.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_win32.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_write.c"
+"C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_zip.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1E6.tmp" 
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1E7.tmp" with contents
+[
+/nologo /out:"Lib\tiffd.lib" 
+".\Debug\tif_aux.obj"
+".\Debug\tif_close.obj"
+".\Debug\tif_codec.obj"
+".\Debug\tif_compress.obj"
+".\Debug\tif_dir.obj"
+".\Debug\tif_dirinfo.obj"
+".\Debug\tif_dirread.obj"
+".\Debug\tif_dirwrite.obj"
+".\Debug\tif_dumpmode.obj"
+".\Debug\tif_error.obj"
+".\Debug\tif_fax3.obj"
+".\Debug\tif_fax3sm.obj"
+".\Debug\tif_flush.obj"
+".\Debug\tif_getimage.obj"
+".\Debug\tif_jpeg.obj"
+".\Debug\tif_luv.obj"
+".\Debug\tif_lzw.obj"
+".\Debug\tif_next.obj"
+".\Debug\tif_open.obj"
+".\Debug\tif_packbits.obj"
+".\Debug\tif_pixarlog.obj"
+".\Debug\tif_predict.obj"
+".\Debug\tif_print.obj"
+".\Debug\tif_read.obj"
+".\Debug\tif_strip.obj"
+".\Debug\tif_swab.obj"
+".\Debug\tif_thunder.obj"
+".\Debug\tif_tile.obj"
+".\Debug\tif_version.obj"
+".\Debug\tif_warning.obj"
+".\Debug\tif_win32.obj"
+".\Debug\tif_write.obj"
+".\Debug\tif_zip.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1E7.tmp"
+<h3>Output Window</h3>
+Compiling...
+tif_aux.c
+tif_close.c
+tif_codec.c
+tif_compress.c
+tif_dir.c
+tif_dirinfo.c
+tif_dirread.c
+tif_dirwrite.c
+tif_dumpmode.c
+tif_error.c
+tif_fax3.c
+tif_fax3sm.c
+tif_flush.c
+tif_getimage.c
+C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_getimage.c(1507) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_getimage.c(1508) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_getimage.c(1509) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_getimage.c(1510) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_getimage.c(1511) : warning C4550: expression evaluates to a function which is missing an argument list
+C:\Coding\!\vc\Projects\Graphics Library\tiff\tif_getimage.c(1512) : warning C4550: expression evaluates to a function which is missing an argument list
+tif_jpeg.c
+tif_luv.c
+tif_lzw.c
+tif_next.c
+tif_open.c
+tif_packbits.c
+tif_pixarlog.c
+tif_predict.c
+tif_print.c
+tif_read.c
+tif_strip.c
+tif_swab.c
+tif_thunder.c
+tif_tile.c
+tif_version.c
+tif_warning.c
+tif_win32.c
+c:\coding\!\vc\projects\graphics library\tiff\tif_win32.c(86) : warning C4068: unknown pragma
+c:\coding\!\vc\projects\graphics library\tiff\tif_win32.c(123) : warning C4068: unknown pragma
+tif_write.c
+tif_zip.c
+Creating library...
+
+
+
+<h3>Results</h3>
+tiffd.lib - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>

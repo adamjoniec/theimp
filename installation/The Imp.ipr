@@ -1,0 +1,53 @@
+[Language]
+LanguageSupport0=0009
+
+[OperatingSystem]
+OSSupport=0000000000011010
+
+[Data]
+CurrentMedia=Default
+set_mifserial=
+ProductName=The Imp
+CurrentComponentDef=Default.cdf
+set_dlldebug=No
+AppExe=C:\Programy\Players\The Imp\The Imp.exe
+DevEnvironment=Microsoft Visual C++ 6
+set_mif=No
+set_testmode=No
+Instructions=Instructions.txt
+EmailAddresss=
+SummaryText=
+Department=
+Type=Database Application
+Author=
+HomeURL=
+InstallRoot=C:\My Installations\The Imp
+set_level=Level 3
+InstallationGUID=fadc1a21-6f19-4a4c-a0b6-137fbbb704d6
+Version=1.00.000
+set_miffile=Status.mif
+set_args=
+set_maxerr=50
+Notes=Notes.txt
+CurrentFileGroupDef=Default.fdf
+set_dllcmdline=
+set_warnaserr=No
+Copyright=
+set_preproc=
+Category=
+CurrentPlatform=
+set_compileb4build=No
+set_crc=Yes
+set_maxwarn=50
+Description=Description.txt
+CompanyName=Softshell
+CurrentLanguage=English
+
+[MediaInfo]
+mediadata0=Default/Media\Default
+mediadata1=New Media/Media\New Media
+
+[General]
+Type=INSTALLMAIN
+Version=1.10.000
+

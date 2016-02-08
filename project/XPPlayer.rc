@@ -1,0 +1,778 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\XPPlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Imp.ico"
+IDI_ICON_MOVIE01        ICON    DISCARDABLE     "res\\Movie01.ico"
+IDI_ICON_MOVIE02        ICON    DISCARDABLE     "res\\Movie02.ico"
+IDI_ICON_MOVIE03        ICON    DISCARDABLE     "res\\Movie03.ico"
+IDI_ICON_MOVIE04        ICON    DISCARDABLE     "res\\Movie04.ico"
+IDI_ICON_MOVIE05        ICON    DISCARDABLE     "res\\Movie05.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Play / Pause\tSpace",         IDM_PLAYPAUSE
+        MENUITEM "Stop\tV",                     IDM_STOP
+        MENUITEM "Rewind\tKey Left",            IDM_REWINDBACK
+        MENUITEM "FastForward\tKey Right",      IDM_REWINDFORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "Prev Movie",                  IDM_PREVMOVIE
+        MENUITEM "Next Movie",                  IDM_NEXTMOVIE
+        MENUITEM "Playlist",                    IDM_PLAYLIST
+        MENUITEM SEPARATOR
+        MENUITEM "Fullscreen\tAlt+Enter",       IDM_FULLSCREEN
+        MENUITEM "PanScan",                     IDM_PANSCAN
+        POPUP "PanScan Mode"
+        BEGIN
+            MENUITEM "Auto",                        IDM_PS_AUTO
+            MENUITEM "Wide ( 16:9 )",               IDM_PS_WIDE
+            MENUITEM SEPARATOR
+            MENUITEM "Zoom 10%",                    IDM_PS_ZOOM10
+            MENUITEM "Zoom 20%",                    IDM_PS_ZOOM20
+            MENUITEM "Zoom 25%",                    IDM_PS_ZOOM25
+            MENUITEM "Zoom 30%",                    IDM_PS_ZOOM30
+            MENUITEM "Zoom 35%",                    IDM_PS_ZOOM35
+            MENUITEM "Zoom 40%",                    IDM_PS_ZOOM40
+            MENUITEM "Zoom 50%",                    IDM_PS_ZOOM50
+        END
+        MENUITEM "Show Subtitles",              IDM_SHOWSUBTITLES
+        MENUITEM SEPARATOR
+        MENUITEM "Open Movie ...",              IDM_OPENMOVIE
+        MENUITEM "Open Subtitles ...",          IDM_OPENSUBTITLES
+        MENUITEM SEPARATOR
+        MENUITEM "Options ...",                 IDM_OPTIONS
+        MENUITEM "Filters Properties",          IDM_FILTERSPROP
+        MENUITEM "Skin Browser ...",            IDM_SKINBROWSER
+        MENUITEM SEPARATOR
+        MENUITEM "Exit\tAlt+F4",                IDM_EXIT
+    END
+END
+
+IDR_MENU_PLS MENU DISCARDABLE 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Open playlist",               ID_QMPLS_OPEN
+        MENUITEM "Save playlist",               ID_QMPLS_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Clear playlist",              ID_QMPLS_CLEARPLS
+        MENUITEM SEPARATOR
+        MENUITEM "Add file(s)",                 ID_QMPLS_ADDFILES
+        MENUITEM "Remove file",                 ID_QMPLS_REMOVEFILE
+        MENUITEM SEPARATOR
+        MENUITEM "Close playlist",              ID_QMPLS_CLOSE
+    END
+END
+
+IDR_MENU_CALLBACK MENU DISCARDABLE 
+BEGIN
+    POPUP "Callback"
+    BEGIN
+        MENUITEM "IDM_CALLBACK_OPENFROMPLS",    IDM_CALLBACK_OPENFROMPLS
+        MENUITEM "IDM_CALLBACK_CLOSEDPLS",      IDM_CALLBACK_CLOSEDPLS
+        MENUITEM "IDM_CALLBACK_SKINCHANGED",    IDM_CALLBACK_SKINCHANGED
+        MENUITEM "IDM_CALLBACK_FONTCHANGED",    IDM_CALLBACK_FONTCHANGED
+        MENUITEM "IDM_CALLBACK_ALWAYSONTOPCHANGED", 
+                                                IDM_CALLBACK_ALWAYSONTOPCHANGED
+
+        MENUITEM "IDM_CALLBACK_TRIEDLOADSUBTITLES", 
+                                                IDM_CALLBACK_TRIEDLOADSUBTITLES
+
+        MENUITEM "IDM_CALLBACK_OFFSETSUBTITLESCHANGED", 
+                                                IDM_CALLBACK_OFFSETSUBTITLESCHANGED
+
+        MENUITEM "IDM_CALLBACK_SUBTITLESPOSCHANGED", 
+                                                IDM_CALLBACK_SUBTITLESPOSCHANGED
+
+        MENUITEM "IDM_CALLBACK_SAVESUBTITLES",  IDM_CALLBACK_SAVESUBTITLES
+        MENUITEM "IDM_CALLBACK_LANGUAGECHANGED", 
+                                                IDM_CALLBACK_LANGUAGECHANGED
+        MENUITEM "IDM_CALLBACK_OPENFROMMUTEX",  IDM_CALLBACK_OPENFROMMUTEX
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_FILTERSPROP DIALOG DISCARDABLE  0, 0, 232, 250
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Movie properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,65,232,50,14
+    LISTBOX         IDC_LIST_FILTERS,19,150,185,50,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Used filters with property page",
+                    IDC_TEXTT_TITLESFILTERS,10,135,206,90
+    PUSHBUTTON      "Properties",IDC_BUTTON_PROP,115,205,80,12,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,121,232,50,14
+    PUSHBUTTON      "Apply",IDAPPLY,175,232,50,14,WS_DISABLED
+    GROUPBOX        "(*) Picture settings",IDC_TEXTT_TITLEPICTURE,10,5,205,
+                    120
+    CONTROL         "Slider4",IDC_SLIDER_BRIGHTNESS,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,65,20,120,19
+    LTEXT           "100\n[IRE]",IDC_STATIC_BRIGHTNESS,190,22,20,17
+    LTEXT           "Brightness:",IDC_TEXTT_BRIGHTNESS,20,25,45,8
+    CONTROL         "Slider4",IDC_SLIDER_CONTRAST,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,65,46,120,19
+    LTEXT           "100\n[IRE]",IDC_STATIC_CONTRAST,190,48,20,17
+    LTEXT           "Contrast:",IDC_TEXTT_CONTRAST,20,51,45,8
+    CONTROL         "Slider4",IDC_SLIDER_SATURATION,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,65,75,120,19
+    LTEXT           "100\n[IRE]",IDC_STATIC_SATURATION,190,77,20,17
+    LTEXT           "Saturation:",IDC_TEXTT_SATURATION,20,80,45,8
+    PUSHBUTTON      "Default",IDC_BUTTON_DEF,115,105,80,12
+    LTEXT           "(*) WinXP only",IDC_TEXTT_WINXPONLY,25,112,75,8
+END
+
+IDD_DIALOG_PLAYLIST DIALOGEX 0, 0, 167, 155
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_TOOLWINDOW | WS_EX_STATICEDGE
+CAPTION "Playlist"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_PLAYLIST,0,0,167,155,LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_DIALOG_OPTIONS DIALOG DISCARDABLE  0, 0, 335, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "The Imp Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_PAGE,"SysTreeView32",TVS_HASLINES | 
+                    TVS_LINESATROOT | TVS_TRACKSELECT | TVS_FULLROWSELECT | 
+                    TVS_NOSCROLL | WS_BORDER | WS_TABSTOP,5,5,81,135
+    PUSHBUTTON      "Close",IDC_BUTTON_CLOSE,5,150,80,12
+END
+
+IDD_DIALOG_TIMEOUT DIALOG DISCARDABLE  0, 0, 202, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "The Imp Timeout"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Tryout time expired !!!",IDC_CAPTION,20,10,160,20
+    PUSHBUTTON      "Register 'The Imp' (only 3$)",IDC_BUTTON_REGISTER,10,35,
+                    180,30
+    PUSHBUTTON      "www.theimp.prv.pl",IDC_BUTTON_THEIMP,10,115,180,30
+    LTEXT           "Visit www.theimp.prv.pl if you don't want buy this program,       for further instructions.",
+                    IDC_STATIC,10,90,181,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_FILTERSPROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_DIALOG_PLAYLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_DIALOG_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_DIALOG_TIMEOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RAWDATA
+//
+
+IDR_AUTHOR              RAWDATA DISCARDABLE     "res\\Author.png"
+IDR_ABOUT               RAWDATA DISCARDABLE     "res\\About.png"
+IDR_ABOUTSCROLLER       RAWDATA DISCARDABLE     "res\\About - Scroller.png"
+IDR_ABOUTWWW            RAWDATA DISCARDABLE     "res\\About - www.png"
+IDR_ABOUTMAIL           RAWDATA DISCARDABLE     "res\\About - Mail.png"
+IDR_ABOUTREGISTERIT     RAWDATA DISCARDABLE     "res\\About - Register It.png"
+IDR_SETUP               RAWDATA DISCARDABLE     "res\\Setup.png"
+IDR_DEFAULTSKIN         RAWDATA DISCARDABLE     "res\\bestplayer.zip"
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PP_ABOUT DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_PP_FILETYPES DIALOGEX 0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "File types",IDC_TEXTT_TITLE,5,0,240,170
+    LISTBOX         IDC_LIST_EXTENSIONS,20,25,50,115,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Associated extensions",IDC_TEXTT_TITLEASSOCIATED,15,10,
+                    145,135
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+    PUSHBUTTON      "Select all",IDC_BUTTON_ALL,75,30,70,25,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Select none",IDC_BUTTON_NONE,75,60,70,25,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_CHECK_REGISTERONSTART,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,75,113,10,10
+    LTEXT           "Register types when 'The Imp' starts",
+                    IDC_TEXTT_REGISTERONSTART,89,105,56,30,SS_NOTIFY | 
+                    WS_TABSTOP
+    GROUPBOX        "File icon",IDC_TEXTT_TITLEICON,165,10,70,75
+    ICON            "",IDC_STATIC_ICON,195,35,20,20
+    CONTROL         "Slider1",IDC_SLIDER_ICON,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | WS_TABSTOP,175,20,13,60
+END
+
+IDD_PP_SETUP DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Setup",IDC_TEXTT_TITLE,5,0,240,170
+    GROUPBOX        "Current language",IDC_TEXTT_TITLECURRLANG,15,15,220,65
+    COMBOBOX        IDC_COMBO_CURRLANG,30,35,105,110,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+    LTEXT           "English translation: Adam Joniec ( adamjoniec@o2.pl )",
+                    IDC_TEXTT_TRANSLATION,40,55,185,17
+END
+
+IDD_PP_OPTIONS DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Options",IDC_TEXTT_TITLE,5,0,240,170
+    CONTROL         "Hide PLS on mouse left-button click",
+                    IDC_CHECK_HIDEPLSMLEFT,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,20,129,210,10
+    CONTROL         "Maximize over task menu",IDC_CHECK_MAXOVERTASK,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,20,40,210,10
+    CONTROL         "Always on top",IDC_CHECK_ALWAYSONTOP,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,20,25,210,10
+    LTEXT           "Hide cursor and control window when fullscreen after:",
+                    IDC_TEXTT_HIDEAFTER,20,57,210,8
+    EDITTEXT        IDC_EDIT_HIDEAFTER,40,69,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_HIDEAFTER,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,80,69,11,14
+    LTEXT           "[ ms ]",IDC_TEXTT2_HIDEAFTER,85,74,30,8
+    LTEXT           "Maimum playlist files:",IDC_TEXTT_MAXPLSFILES,20,106,
+                    100,17
+    EDITTEXT        IDC_EDIT_MAXPLSFILES,130,107,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_MAXPLSFILES,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,170,105,11,14
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+    GROUPBOX        "General",IDC_TEXTT_TITLEGENERAL,10,10,230,81
+    GROUPBOX        "Playlist",IDC_TEXTT_TITLEPLAYLIST,10,95,230,50
+END
+
+IDD_PP_PLAY DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Play",IDC_TEXTT_TITLE,5,0,240,170
+    LTEXT           "Rewind \\ Fast forward movie by",IDC_TEXTT_REWINDBY,21,
+                    22,124,8
+    EDITTEXT        IDC_EDIT_REWINDBY,149,18,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_REWINDBY,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,189,20,11,14
+    LTEXT           "seconds",IDC_TEXTT2_REWINDBY,194,20,28,8
+    CONTROL         "Speed up seek and rewind",IDC_CHECK_FASTSEEK,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,25,40,205,10
+    CONTROL         "Auto rewind movie",IDC_CHECK_AUTOREWIND,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,20,105,210,10
+    CONTROL         "Loop playback",IDC_CHECK_LOOP,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,20,90,205,10
+    CONTROL         "Auto play movie when loaded",IDC_CHECK_AUTOPLAY,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,20,120,205,10
+    LTEXT           "( experimental, use on your            own risk )",
+                    IDC_TEXTT_FASTSEEK,40,50,190,10
+    GROUPBOX        "Seeking options",IDC_TEXTT_TITLESEEKING,10,10,230,60
+    GROUPBOX        "General options",IDC_TEXTT_TITLEGENERAL,10,74,230,66
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+END
+
+IDD_PP_STARTUP DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Startup",IDC_TEXTT_TITLE,5,0,240,170
+    LTEXT           "Open program in",IDC_TEXTT_OPENWITHMOVIE,15,64,55,17
+    COMBOBOX        IDC_COMBO_OPENWITHMOVIE,74,61,66,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "mode when double-clicking or dragging a movie",
+                    IDC_TEXTT2_OPENWITHMOVIE,145,63,95,17
+    LTEXT           "Open program in",IDC_TEXTT_OPENONMOVIE,15,23,53,17
+    COMBOBOX        IDC_COMBO_OPENNOMOVIE,74,20,66,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "mode when no movie to open",IDC_TEXTT2_OPENONMOVIE,145,
+                    23,90,17
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+END
+
+IDD_PP_SUBTITLES_TIME DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Time correction",IDC_TEXTT_TITLE,5,0,240,170
+    CONTROL         "DateTimePicker1",IDC_DATETIME_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,136,37,45,
+                    15
+    GROUPBOX        "",IDC_TEXTT_TITLEOFFSET,10,15,230,85
+    LTEXT           "subtitles by",IDC_TEXTT_TIME,85,40,45,8
+    CONTROL         "Delay",IDC_RADIO_DELAY,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,15,45,70,10
+    CONTROL         "Speed up",IDC_RADIO_SPEEDUP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,15,35,65,10
+    LTEXT           "[ hh:mm:ss ]",IDC_TEXTT2_TIME,186,40,44,8
+    CONTROL         "Offset subtitles",IDC_CHECK_OFFSET,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,15,12,85,15
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+    PUSHBUTTON      "Save modified subtitles as...",IDC_BUTTON_SAVEAS,115,85,
+                    120,12
+END
+
+IDD_PP_SKINBROWSER DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Skin browser",IDC_TEXTT_TITLE,5,0,240,170
+    LISTBOX         IDC_SBLIST_SKINS,10,15,80,137,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Skin info",IDC_TEXTT_TITLESKINIFNO,95,10,145,155
+    LTEXT           "Name:",IDC_TEXTT_NAME,100,125,30,8
+    LTEXT           "Author:",IDC_TEXTT_AUTHOR,100,135,30,8
+    LTEXT           "Comment:",IDC_TEXTT_COMMENT,100,145,32,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,100,19,135,94
+    LTEXT           "Version:",IDC_TEXTT_VERSION,180,115,26,8
+    LTEXT           "1.0",IDC_TEXT_VERSION,215,115,15,8
+    LTEXT           "Adam Joniec [-SAuron-]",IDC_TEXT_AUTHOR,135,135,95,8
+    CTEXT           "Preview Not Available",IDC_TEXT_PREVNOTAVAIL,105,55,120,
+                    25,SS_CENTERIMAGE
+    LTEXT           "Comment can have two line of text.",IDC_TEXT_COMMENT,
+                    135,145,95,16
+    LTEXT           "BestPlayer",IDC_TEXT_NAME,135,125,95,8
+    PUSHBUTTON      "Select skin",IDC_BUTTON_SELECTSKIN,10,155,80,12,
+                    WS_DISABLED
+END
+
+IDD_PP_SUBTITLES DIALOG DISCARDABLE  0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Subtitles",IDC_TEXTT_TITLE,5,0,240,170
+    COMBOBOX        IDC_COMBO_MODESEL,15,115,100,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Short background",IDC_CHECK_SHORTBKGRND,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,15,145,100,10
+    LTEXT           "Transparent mode:",IDC_TEXTT_MODESEL,21,105,84,8
+    COMBOBOX        IDC_COMBO_OUTLINESEL,125,115,100,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font outline:",IDC_TEXTT_OUTLINESEL,131,105,84,8
+    CONTROL         "Transparent background",IDC_CHECK_TRANSPARENTBKGRND,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,15,135,
+                    110,10
+    PUSHBUTTON      "Change font...",IDC_BUTTON_CHANGEFONT,20,60,75,12
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    CONTROL         "Region mode precise",IDC_CHECK_RGNPRECISE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,15,155,100,10
+    CTEXT           "Background color ...",IDC_TEXT_BKGRNDCOL,115,87,70,10,
+                    SS_NOTIFY | SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Outline color ...",IDC_TEXT_OUTLINECOL,115,74,70,10,
+                    SS_NOTIFY | SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Font color ...",IDC_TEXT_FONTCOL,115,61,70,10,SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+END
+
+IDD_PP_SUBTITLES_GENERAL DIALOGEX 0, 0, 251, 176
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_TEXTROWS,115,71,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_TABSTOP
+    CONTROL         "Spin1",IDC_SPIN_TEXTROWS,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,155,70,11,
+                    15
+    GROUPBOX        "Subtitles additional",IDC_TEXTT_TITLE,5,0,240,170
+    EDITTEXT        IDC_EDIT_DISTANCE,115,90,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_TABSTOP
+    CONTROL         "Spin1",IDC_SPIN_DISTANCE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,157,90,11,
+                    15
+    COMBOBOX        IDC_COMBO_MROWDIR,95,110,85,45,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Text rows:",IDD_TEXTT_TEXTROWS,15,75,95,8
+    LTEXT           "Row distance:",IDD_TEXTT_ROWDISTANCE,15,93,95,10,0,0,
+                    HIDD_TEXTT_ROWDISTANCE
+    LTEXT           "Multi-row direction:",IDD_TEXTT_MROWDIR,15,112,75,15
+    CONTROL         "Autosize",IDC_CHECK_AUTOSIZE,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,20,130,100,10
+    DEFPUSHBUTTON   "Apply",IDC_BUTTON_APPLY,185,155,55,12,WS_DISABLED
+    PUSHBUTTON      "Default",IDC_BUTTON_DEFAULT,125,155,55,12
+    EDITTEXT        IDC_EDIT_TIMETOHIDE,100,26,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_TABSTOP
+    CONTROL         "Spin1",IDC_SPIN_TIMETOHIDE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,140,25,11,
+                    15
+    LTEXT           "Hide subtitles after:",IDD_TEXTT_TIMETOHIDE,15,30,75,15
+    SCROLLBAR       IDC_SCROLLBAR_POSITION,210,20,10,120,SBS_VERT
+    LTEXT           "seconds",IDD_TEXTT2_TIMETOHIDE,144,30,35,8
+    LTEXT           "pixels",IDD_TEXTT2_ROWDISTANCE,157,94,18,8
+    GROUPBOX        "Time properties",IDD_TEXTT_TITLETIMEPROP,10,10,175,45
+    GROUPBOX        "Additional options",IDC_TEXTT_TITLEADDITIONAL,10,55,175,
+                    90
+    GROUPBOX        "Position",IDC_TEXTT_TITLEPOSITION,195,10,40,135,
+                    BS_CENTER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PP_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_FILETYPES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_PLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_STARTUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_SUBTITLES_TIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_SKINBROWSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_SUBTITLES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_PP_SUBTITLES_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Softshell\0"
+            VALUE "FileDescription", "The Imp ,that is The Illegal Movie Player\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "The Imp\0"
+            VALUE "LegalCopyright", "(C)Copyright Adam Joniec 1980-2002.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "The Imp.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "The Imp, that is The Illegal Movie Player\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PP_SUBTITLES DLGINIT
+BEGIN
+    IDC_COMBO_MODESEL, 0x403, 17, 0
+0x764f, 0x7265, 0x616c, 0x2079, 0x6628, 0x7361, 0x6574, 0x2972, "\000" 
+    IDC_COMBO_MODESEL, 0x403, 26, 0
+0x6552, 0x6967, 0x6e6f, 0x2073, 0x6d28, 0x726f, 0x2065, 0x6f63, 0x706d, 
+0x7461, 0x6269, 0x656c, 0x0029, 
+    IDC_COMBO_OUTLINESEL, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_COMBO_OUTLINESEL, 0x403, 5, 0
+0x6854, 0x6e69, "\000" 
+    IDC_COMBO_OUTLINESEL, 0x403, 5, 0
+0x6f42, 0x646c, "\000" 
+    0
+END
+
+IDD_PP_SUBTITLES_GENERAL DLGINIT
+BEGIN
+    IDC_COMBO_MROWDIR, 0x403, 13, 0
+0x6f54, 0x2070, 0x202d, 0x6f42, 0x7474, 0x6d6f, "\000" 
+    IDC_COMBO_MROWDIR, 0x403, 13, 0
+0x6f42, 0x7474, 0x6d6f, 0x2d20, 0x5420, 0x706f, "\000" 
+    0
+END
+
+IDD_PP_STARTUP DLGINIT
+BEGIN
+    IDC_COMBO_OPENWITHMOVIE, 0x403, 7, 0
+0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO_OPENWITHMOVIE, 0x403, 8, 0
+0x6f43, 0x706d, 0x6361, 0x0074, 
+    IDC_COMBO_OPENWITHMOVIE, 0x403, 11, 0
+0x7546, 0x6c6c, 0x6373, 0x6572, 0x6e65, "\000" 
+    IDC_COMBO_OPENWITHMOVIE, 0x403, 12, 0
+0x614c, 0x7473, 0x6f20, 0x6570, 0x656e, 0x0064, 
+    IDC_COMBO_OPENNOMOVIE, 0x403, 7, 0
+0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO_OPENNOMOVIE, 0x403, 8, 0
+0x6f43, 0x706d, 0x6361, 0x0074, 
+    IDC_COMBO_OPENNOMOVIE, 0x403, 11, 0
+0x7546, 0x6c6c, 0x6373, 0x6572, 0x6e65, "\000" 
+    IDC_COMBO_OPENNOMOVIE, 0x403, 12, 0
+0x614c, 0x7473, 0x6f20, 0x6570, 0x656e, 0x0064, 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\XPPlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,246 @@
+<player ver="1.0" name="DivXPlayer" author="Adam Joniec" 
+	authorEmail="adamjoniec@o2.pl" authorWWW="" 
+	comment="Choose it if you used DivXplayer to play movies." >
+
+	<skin id="normal">
+
+
+		<bitmap id="background" file = "background.png" />
+		<bitmap id="buttons" file="buttons.png" />
+
+		<size id="minimal" w="480" h="284" />
+
+
+		<resizeDefinition>
+			<!-- --><!-- rect -->			
+
+			<resize id="top" h="31" xLine1="420" xLine2="125"/>
+			<!--resize id="bottom" h="115" xLine1="70" xLine2="355"/-->
+			<resize id="bottom" h="115" xLine="70" />
+
+			<resize id="left" w="9" yLine="70" />
+			<resize id="right" w="9" yLine="70" />
+
+
+		</resizeDefinition>
+
+		<area id="movie.playback" x="9" y="31" w="527" h="168" />
+
+		<!-- label font is always 'MS Sans Serif', color is #RRGGBB -->
+		<textArea id="movie.state" x="24" y="262" w="130" h="14" fontSize="8"
+			fontColor="#E1E1E1" />
+		<textArea id="movie.time" x="156" y="262" w="110" h="12" fontSize="8" 
+			fontColor="#E1E1E1" />
+
+
+		<scrollbar id="player.position" x="34" y="201" w="477" h="25" marginLeft="5" marginRight="5">
+
+
+			<!-- height and width - look up -->
+			<state id="normal" bitmap="background" x="34" y="201" />
+
+	
+			<!-- width and height MUST be defined here -->
+			<state id="slider.normal" bitmap="buttons" x="2" y="383" w="14" h="25" />
+			<state id="slider.press" bitmap="buttons" x="18" y="383" w="14" h="25" />
+
+		</scrollbar>
+
+		<scrollbar id="player.volume" x="326" y="289" w="60" h="10" marginLeft="5" marginRight="5">
+	
+			<state id="normal" bitmap="background" x="326" y="289" />
+	
+			<state id="slider.normal" bitmap="buttons" x="2" y="359" w="19" h="21" />
+			<state id="slider.press" bitmap="buttons" x="23" y="359" />
+		</scrollbar>
+
+		<button id="player.open" X="326" y="250" w="30" h="30" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" X="2" y="261" />
+			<state id="press" bitmap="buttons" x="34" y="261" /> 
+
+		</button>
+
+
+		<button id="window.minimize" x="494" y="5" w="25" h="20" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" x="2" y="315" />
+			<state id="press" bitmap="buttons" x="29" y="315" />
+	
+	    </button>
+
+		<button id="window.resize" x="520" y="290" w="25" h="24" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" x="2" y="205" />
+
+		</button>
+
+
+		<button id="player.play_pause" x="439" y="248" w="51" h="33" >
+
+			<state id="normal" bitmap="buttons" x="2" y="57"/>
+			<state id="press" bitmap="buttons" x="55" y="57" />
+			<state id="over" bitmap="buttons" x="179" y="220" />
+
+			<state id="normal.second" bitmap="buttons" x="2" y="92" />
+			<state id="press.second" bitmap="buttons" x="55" y="92" />
+			<state id="over.second" bitmap="buttons" x="179" y="255" />
+
+			<state id="disabled" bitmap="buttons" x="232" y="220" />
+
+		</button>
+
+
+		<button id="player.stop" x="439" y="282" w="51" h="20" >
+
+			<state id="normal" bitmap="buttons" x="2" y="127" />
+			<state id="press" bitmap="buttons" x="55" y="127" />
+
+		</button>
+
+
+		<button id="player.rewindforward" x="490" y="248" w="45" h="54" shape="singleAlpha" >
+
+			<state id="normal" bitmap="buttons" x="2" y="149" />
+			<state id="press" bitmap="buttons" x="49" y="149" />
+			<state id="over" bitmap="buttons" x="237" y="290" />
+
+		</button>
+  
+	
+		<button id="window.close" x="519" y="5" w="19" h="20" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" x="2" y="293" />
+			<state id="press" bitmap="buttons" x="23" y="293" />
+
+		</button>
+
+
+		<button id="window.sysmenu" x="7" y="5" w="35" h="20" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" x="2" y="337" />
+			<state id="press" bitmap="buttons" x="39" y="337" />
+
+		</button>
+
+
+		<button id="player.rewindback" x="394" y="248" w="45" h="53" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" x="2" y="2"/>
+			<state id="press" bitmap="buttons" x="49" y="2"/>
+			<state id="over" bitmap="buttons" x="190" y="290"/>
+
+		</button>
+
+
+		<button id="player.fullscreen_windowed" x="359" y="251" w="28" h="28" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" x="2" y="231" />
+			<state id="press" bitmap="buttons" x="32" y="231" />
+	
+		</button>
+
+
+	</skin>
+
+	<skin id="compact">
+
+		<bitmap id = "background" file = "compact.png" />
+
+		<resizeDefinition>
+
+			<resize id="top" h="7" xLine="60"/>
+			<resize id="bottom" h="12" xLine="60"/>
+
+			<resize id="left" w="7" yLine="50" />
+			<resize id="right" w="7" yLine="50" />
+
+
+		</resizeDefinition>
+
+		<area id="movie.playback" x="7" y="7" w="527" h="168" />
+
+		<button id="window.resize" x="529" y="177" w="12" h="10" >
+
+			<state id="normal" bitmap="background" x="529" y="177"/>
+		
+		</button>
+
+	</skin>
+
+	<skin id="fullscreen" constPos="FALSE" >
+			
+		<bitmap id="background" file="fullscreen.png" />
+		<bitmap id="buttons" file = "buttons.png" />
+
+		<!-- label font is always 'MS Sans Serif', color is #RRGGBB -->
+		<textArea id="movie.state" x="20" y="20" w="90" h="14" />
+		<textArea id="movie.time" x="16" y="45" w="100" h="12" fontSize="8" 
+			fontColor="#E1E1E1" />
+
+		<resizeDefinition>
+			<resize id="top" h="50" xLine="60"/>
+			<resize id="bottom" h="39" xLine="60" />
+
+			<resize id="left" w="0" yLine="0" />
+			<resize id="right" w="0" yLine="0" />
+		</resizeDefinition>
+
+		<button id="player.play_pause" x="160" y="7" w="37" h="25">
+		
+			<state id="normal" bitmap="buttons" x="108" y="43" />
+			<state id="press" bitmap="buttons" x="108" y="70" />
+
+			<state id="normal.second" bitmap="buttons" x="147" y="43" />
+			<state id="press.second" bitmap="buttons" x="147" y="70" />
+			
+		</button>
+
+		<button id="player.rewindback" x="128" y="7" w="32" h="39" shape="singleAlpha">
+
+			<state id="normal" bitmap="buttons" x="96" y="2" />
+			<state id="press" bitmap="buttons" x="130" y="2" />
+			
+		</button>
+
+		<button id="player.stop" x="160" y="32" w="36" h="16">
+
+			<state id="normal" bitmap="buttons" x="146" y="97" />
+			<state id="press" bitmap="buttons" x="108" y="97" />
+		</button>
+
+		<button id="player.rewindforward" x="196" y="6" w="34" h="42" shape="singleAlpha">
+			<state id="normal" bitmap="buttons" x="108" y="115" />
+			<state id="press" bitmap="buttons" x="144" y="115" />
+		</button>
+
+		<button id="player.open" x="115" y="38" w="28" h="28" shape="singleAlpha">
+			<state id="normal" bitmap="buttons" x="96" y="159" />
+			<state id="press" bitmap="buttons" x="126" y="159" />
+		</button>
+
+		<button id="player.fullscreen_windowed" x="216" y="38" w="28" h="28" shape="singleAlpha">
+			<state id="normal" bitmap="buttons" x="156" y="159" />
+			<state id="press" bitmap="buttons" x="186" y="159" />
+		</button>
+
+		<scrollbar id="player.position" x="7" y="67" w="235" h="22" marginLeft="5" marginRight="5">
+			<state id="normal" bitmap="background" x="7" y="67" />
+	
+			<!-- width and height MUST be defined here -->
+			<state id="slider.normal" bitmap="buttons" x="2" y="410" w="11" h="22" />
+			<state id="slider.press" bitmap="buttons" x="15" y="410" />
+
+		</scrollbar>
+
+		<scrollbar id="player.volume" x="161" y="52" w="51" h="10" marginLeft="4" marginRight="4">
+			<state id="normal" bitmap="background" x="161" y="52" />
+	
+			<state id="slider.normal" bitmap="buttons" x="96" y="189" w="16" h="20" />
+			<state id="slider.press" bitmap="buttons" x="114" y="189" />
+		</scrollbar>
+
+
+	</skin>
+
+</player>

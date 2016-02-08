@@ -1,0 +1,21 @@
+[Skins]
+file0=C:\Programy\Players\The Imp\Skins\bestplayer.zip
+file1=C:\Programy\Players\The Imp\Skins\divxplayer.zip
+fulldirectory=C:\Programy\Players\The Imp\Skins
+
+[TopDir]
+file0=C:\Programy\Players\The Imp\language_base.xml
+file1=C:\Programy\Players\The Imp\register.url
+file2=C:\Programy\Players\The Imp\skin_tutorial.xml
+file3=C:\Programy\Players\The Imp\The Imp.exe
+SubDir0=Skins
+SubDir1=Languages
+
+[Languages]
+file0=C:\Programy\Players\The Imp\Languages\polish.zip
+fulldirectory=C:\Programy\Players\The Imp\Languages
+
+[General]
+Type=FILELIST
+Version=1.00.000
+

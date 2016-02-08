@@ -1,0 +1,26 @@
+--------------------Configuration: LZCoder - Win32 Release--------------------
+Begining build with project "C:\Coding\!\vc\console\LZCoder\LZCoder.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/LZCoder.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x415 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/LZCoder.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lzcd.lib lzwcd.lib /nologo /subsystem:console /incremental:no /pdb:"Release/LZCoder.pdb" /machine:I386 /out:"Release/LZCoder.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP6095.TMP" with contents </nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/LZCoder.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Coding\!\vc\console\LZCoder\Files\LZCoder.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6095.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP6096.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lzcd.lib lzwcd.lib /nologo /subsystem:console /incremental:no /pdb:"Release/LZCoder.pdb" /machine:I386 /out:"Release/LZCoder.exe" 
+".\Release\LZCoder.obj">
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP6096.TMP" 
+Compiling...
+LZCoder.cpp
+Linking...
+
+
+
+LZCoder.exe - 0 error(s), 0 warning(s)

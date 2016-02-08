@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: png - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP10F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/png.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Coding\!\vc\Projects\Graphics Library\png\png.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngerror.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pnggccrd.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngget.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngmem.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngpread.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngread.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngrio.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngrtran.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngrutil.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngset.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngtrans.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngvcrd.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngwio.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngwrite.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngwtran.c"
+"C:\Coding\!\vc\Projects\Graphics Library\png\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP10F.tmp" 
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP110.tmp" with contents
+[
+/nologo /out:"Lib\png.lib" 
+".\Release\png.obj"
+".\Release\pngerror.obj"
+".\Release\pnggccrd.obj"
+".\Release\pngget.obj"
+".\Release\pngmem.obj"
+".\Release\pngpread.obj"
+".\Release\pngread.obj"
+".\Release\pngrio.obj"
+".\Release\pngrtran.obj"
+".\Release\pngrutil.obj"
+".\Release\pngset.obj"
+".\Release\pngtrans.obj"
+".\Release\pngvcrd.obj"
+".\Release\pngwio.obj"
+".\Release\pngwrite.obj"
+".\Release\pngwtran.obj"
+".\Release\pngwutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP110.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pnggccrd.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Creating library...
+
+
+
+<h3>Results</h3>
+png.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

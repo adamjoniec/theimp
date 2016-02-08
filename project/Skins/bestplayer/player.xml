@@ -1,0 +1,406 @@
+<player ver="1.0" name="BestPlayer" author="Adam Joniec" 
+	authorEmail="adamjoniec@o2.pl" authorWWW="" 
+	comment="Choose it if you used BestPlayer to play movies.">
+
+	<menuBitmaps file="quickmenu.png" >
+
+		<!-- width and height is always 13x13 -->
+		<!-- white part becomes transparent and the black part becomes the menu-item color -->
+		<item id="play_pause" x="0" y="0" />
+		<item id="stop" x="0" y="14"/>
+		<item id="rewind_back" x="0" y="28"/>
+		<item id="rewind_forward" x="0" y="42"/>
+		<item id="prev_movie" x="0" y="56"/>
+		<item id="next_movie" x="0" y="70"/>
+		<item id="playlist" x="0" y="84"/>
+		<item id="fullscreen" x="0" y="98" xChecked="14" yChecked="98"/>
+		<item id="panscan" x="0" y="112" xChecked="14" yChecked="112"/>
+		<item id="show_subtitles" x="0" y="126" xChecked="14" yChecked="126"/>
+		<item id="open_movie" x="0" y="140"/>
+		<item id="open_subtitles" x="0" y="154"/>
+		<item id="options" x="0" y="168"/>
+		<item id="skin_browser" x="0" y="182"/>
+
+	</menuBitmaps>
+
+	<skin id="normal">
+
+	<bitmap id="background" file="normal.png"/>
+	<bitmap id="buttons" file="buttons.png" />
+
+	<size id="minimal" w="354" h="284" />
+
+	<area id="movie.playback" x="5" y="26" w="390" h="221" />
+
+	<resizeDefinition>
+
+		<resize id="top" h="26" xLine1="58" xLine2="342"/>
+		<resize id="bottom" h="55" xLine="220" />
+
+		<resize id="left" w="5" yLine="40" />
+		<resize id="right" w="5" yLine="70" />
+
+	</resizeDefinition>
+
+	<button id="window.minimize" x="344" y="7" w="16" h="14">
+
+		<state id="normal" bitmap="buttons" x="92" y="88" />
+		<state id="over" bitmap="buttons" x="108" y="88" />
+		<state id="press" bitmap="buttons" x="124" y="88" />
+		
+	</button>
+	<button id="window.close" x="377" y="7" w="16" h="14">
+
+		<state id="normal" bitmap="buttons" x="92" y="116" />
+		<state id="over" bitmap="buttons" x="108" y="116" />
+		<state id="press" bitmap="buttons" x="124" y="116" />
+		
+	</button>
+	<button id="window.maximize" x="360" y="7" w="16" h="14">
+
+		<state id="normal" bitmap="buttons" x="92" y="102" />
+		<state id="over" bitmap="buttons" x="108" y="102" />
+		<state id="press" bitmap="buttons" x="124" y="102" />
+		<state id="normal.second" bitmap="buttons" x="140" y="102" />
+		<state id="over.second" bitmap="buttons" x="156" y="102" />
+		<state id="press.second" bitmap="buttons" x="172" y="102" />
+		
+	</button>
+
+
+	<button id="player.open" x="9" y="275" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="0" />
+		<state id="over" bitmap="buttons" x="23" y="0" />
+		<state id="press" bitmap="buttons" x="46" y="0" />
+		
+	</button>
+
+	<button id="player.open_subtitles" x="32" y="275" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="22" />
+		<state id="over" bitmap="buttons" x="23" y="22" />
+		<state id="press" bitmap="buttons" x="46" y="22" />
+		<state id="disabled" bitmap="buttons" x="69" y="22" />
+		
+	</button>
+
+	<button id="player.subtitles_on_off" x="63" y="275" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="132" />
+		<state id="over" bitmap="buttons" x="23" y="132" />
+		<state id="press" bitmap="buttons" x="46" y="132" />
+		<state id="normal.second" bitmap="buttons" x="46" y="132" />
+		<state id="disabled" bitmap="buttons" x="69" y="132" />
+		
+	</button>
+
+	<button id="player.fullscreen_windowed" x="94" y="275" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="66" />
+		<state id="over" bitmap="buttons" x="23" y="66" />
+		<state id="press" bitmap="buttons" x="46" y="66" />
+		<state id="normal.second" bitmap="buttons" x="46" y="66" />
+		<state id="disabled" bitmap="buttons" x="69" y="66" />
+		
+	</button>
+
+	<button id="player.panscan_on_off" x="117" y="275" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="110" />
+		<state id="over" bitmap="buttons" x="23" y="110" />
+		<state id="press" bitmap="buttons" x="46" y="110" />
+		<state id="normal.second" bitmap="buttons" x="46" y="110" />
+		<state id="disabled" bitmap="buttons" x="69" y="110" />
+		
+	</button>
+	<button id="player.options" x="148" y="275" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="44" />
+		<state id="over" bitmap="buttons" x="23" y="44" />
+		<state id="press" bitmap="buttons" x="46" y="44" />
+		
+	</button>
+
+	<button id="player.playlist_show_hide" x="179" y="275" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="264" />
+		<state id="over" bitmap="buttons" x="23" y="264" />
+		<state id="press" bitmap="buttons" x="46" y="264" />
+		<state id="normal.second" bitmap="buttons" x="46" y="264" />
+		<state id="disabled" bitmap="buttons" x="69" y="264" />
+		
+	</button>
+
+	<button id="player.prev_movie" x="9" y="252" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="176" />
+		<state id="over" bitmap="buttons" x="23" y="176" />
+		<state id="press" bitmap="buttons" x="46" y="176" />
+		<state id="disabled" bitmap="buttons" x="69" y="176" />
+		
+	</button>
+	<button id="player.next_movie" x="32" y="252" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="154" />
+		<state id="over" bitmap="buttons" x="23" y="154" />
+		<state id="press" bitmap="buttons" x="46" y="154" />
+		<state id="disabled" bitmap="buttons" x="69" y="154" />		
+	</button>
+	<button id="player.play_pause" x="63" y="252" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="242" />
+		<state id="over" bitmap="buttons" x="23" y="242" />
+		<state id="press" bitmap="buttons" x="46" y="242" />
+		<state id="normal.second" bitmap="buttons" x="92" y="242" />
+		<state id="over.second" bitmap="buttons" x="115" y="242" />
+		<state id="press.second" bitmap="buttons" x="138" y="242" />
+		<state id="disabled" bitmap="buttons" x="69" y="242" />		
+	</button>
+
+	<button id="player.stop" x="86" y="252" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="198" />
+		<state id="over" bitmap="buttons" x="23" y="198" />
+		<state id="press" bitmap="buttons" x="46" y="198" />
+		<state id="disabled" bitmap="buttons" x="69" y="198" />		
+	</button>
+	<button id="player.rewindback" x="109" y="252" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="92" y="0" />
+		<state id="over" bitmap="buttons" x="115" y="0" />
+		<state id="press" bitmap="buttons" x="138" y="0" />
+		<state id="disabled" bitmap="buttons" x="161" y="0" />		
+	</button>
+	<button id="player.rewindforward" x="132" y="252" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="92" y="22" />
+		<state id="over" bitmap="buttons" x="115" y="22" />
+		<state id="press" bitmap="buttons" x="138" y="22" />
+		<state id="disabled" bitmap="buttons" x="161" y="22" />		
+	</button>
+
+	<button id="player.volume_on_off" x="316" y="250" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="220" />
+		<state id="over" bitmap="buttons" x="23" y="220" />
+		<state id="press" bitmap="buttons" x="46" y="220" />
+		<state id="normal.second" bitmap="buttons" x="92" y="220" />
+		<state id="over.second" bitmap="buttons" x="115" y="220" />
+		<state id="press.second" bitmap="buttons" x="138" y="220" />
+	</button>
+
+	<button id="window.resize" x="389" y="291" h="11" w="11" >
+		<state id="normal" bitmap="background" x="389" y="291" />
+	</button>
+
+	<textArea id="movie.state" x="215" y="279" w="82" h="14" fontSize="8"
+		fontColor="#f1f1f1" />
+	<textArea id="movie.time" x="312" y="279" w="82" h="14" fontSize="8"
+		fontColor="#f1f1f1" />
+
+	<scrollbar id="player.position" x="166" y="250" w="141" h="18" marginLeft="0" marginRight="0">
+
+		<!-- height and width - look up -->
+		<state id="normal" bitmap="background" x="166" y="250" />
+	
+		<!-- width and height MUST be defined here -->
+		<!-- state id="slider.normal" bitmap="buttons" x="184" y="0" w="8" h="14" /-->
+		<state id="slider.normal" bitmap="buttons" x="184" y="0" w="8" h="14" />
+		<state id="slider.disabled" bitmap="buttons" x="192" y="0" w="8" h="14" />
+
+	</scrollbar>
+
+	<scrollbar id="player.volume" x="340" y="250" w="53" h="18" marginLeft="0" marginRight="0">
+	
+		<state id="normal" bitmap="background" x="340" y="250" />
+	
+		<state id="slider.normal" bitmap="buttons" x="184" y="0" w="8" h="14" />
+	</scrollbar>
+
+	</skin>
+
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<skin id="fullscreen" constPos="TRUE" >
+
+	<bitmap id="background" file="fullscreen.png"/>
+	<bitmap id="buttons" file="buttons.png" />
+
+	<resizeDefinition>
+
+		<resize id="top" h="0" xLine1="0" />
+		<resize id="bottom" h="56" xLine="220" />
+
+		<resize id="left" w="0" yLine="0" />
+		<resize id="right" w="0" yLine="0" />
+
+	</resizeDefinition>
+
+	<button id="window.minimize" x="404" y="2" w="16" h="14">
+
+		<state id="normal" bitmap="buttons" x="92" y="130" />
+		<state id="over" bitmap="buttons" x="108" y="130" />
+		<state id="press" bitmap="buttons" x="124" y="130" />
+		
+	</button>
+	<button id="window.close" x="420" y="2" w="16" h="14">
+
+		<state id="normal" bitmap="buttons" x="92" y="144" />
+		<state id="over" bitmap="buttons" x="108" y="144" />
+		<state id="press" bitmap="buttons" x="124" y="144" />
+		
+	</button>
+
+	<button id="player.open" x="9" y="29" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="0" />
+		<state id="over" bitmap="buttons" x="23" y="0" />
+		<state id="press" bitmap="buttons" x="46" y="0" />
+		
+	</button>
+
+	<button id="player.open_subtitles" x="32" y="29" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="22" />
+		<state id="over" bitmap="buttons" x="23" y="22" />
+		<state id="press" bitmap="buttons" x="46" y="22" />
+		<state id="disabled" bitmap="buttons" x="69" y="22" />
+		
+	</button>
+
+	<button id="player.subtitles_on_off" x="63" y="29" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="132" />
+		<state id="over" bitmap="buttons" x="23" y="132" />
+		<state id="press" bitmap="buttons" x="46" y="132" />
+		<state id="normal.second" bitmap="buttons" x="46" y="132" />
+		<state id="disabled" bitmap="buttons" x="69" y="132" />
+		
+	</button>
+
+	<button id="player.fullscreen_windowed" x="94" y="29" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="66" />
+		<state id="over" bitmap="buttons" x="23" y="66" />
+		<state id="press" bitmap="buttons" x="46" y="66" />
+		<state id="normal.second" bitmap="buttons" x="46" y="66" />
+		<state id="disabled" bitmap="buttons" x="69" y="66" />
+		
+	</button>
+
+	<button id="player.panscan_on_off" x="117" y="29" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="110" />
+		<state id="over" bitmap="buttons" x="23" y="110" />
+		<state id="press" bitmap="buttons" x="46" y="110" />
+		<state id="normal.second" bitmap="buttons" x="46" y="110" />
+		<state id="disabled" bitmap="buttons" x="69" y="110" />
+		
+	</button>
+	<button id="player.options" x="148" y="29" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="44" />
+		<state id="over" bitmap="buttons" x="23" y="44" />
+		<state id="press" bitmap="buttons" x="46" y="44" />
+		
+	</button>
+
+	<button id="player.playlist_show_hide" x="179" y="29" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="264" />
+		<state id="over" bitmap="buttons" x="23" y="264" />
+		<state id="press" bitmap="buttons" x="46" y="264" />
+		<state id="normal.second" bitmap="buttons" x="46" y="264" />
+		<state id="disabled" bitmap="buttons" x="69" y="264" />
+		
+	</button>
+
+	<button id="player.prev_movie" x="9" y="6" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="176" />
+		<state id="over" bitmap="buttons" x="23" y="176" />
+		<state id="press" bitmap="buttons" x="46" y="176" />
+		<state id="disabled" bitmap="buttons" x="69" y="176" />
+		
+	</button>
+	<button id="player.next_movie" x="32" y="6" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="154" />
+		<state id="over" bitmap="buttons" x="23" y="154" />
+		<state id="press" bitmap="buttons" x="46" y="154" />
+		<state id="disabled" bitmap="buttons" x="69" y="154" />		
+	</button>
+	<button id="player.play_pause" x="63" y="6" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="242" />
+		<state id="over" bitmap="buttons" x="23" y="242" />
+		<state id="press" bitmap="buttons" x="46" y="242" />
+		<state id="normal.second" bitmap="buttons" x="92" y="242" />
+		<state id="over.second" bitmap="buttons" x="115" y="242" />
+		<state id="press.second" bitmap="buttons" x="138" y="242" />
+		<state id="disabled" bitmap="buttons" x="69" y="242" />		
+	</button>
+
+	<button id="player.stop" x="86" y="6" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="198" />
+		<state id="over" bitmap="buttons" x="23" y="198" />
+		<state id="press" bitmap="buttons" x="46" y="198" />
+		<state id="disabled" bitmap="buttons" x="69" y="198" />		
+	</button>
+	<button id="player.rewindback" x="109" y="6" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="92" y="0" />
+		<state id="over" bitmap="buttons" x="115" y="0" />
+		<state id="press" bitmap="buttons" x="138" y="0" />
+		<state id="disabled" bitmap="buttons" x="161" y="0" />		
+	</button>
+	<button id="player.rewindforward" x="132" y="6" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="92" y="22" />
+		<state id="over" bitmap="buttons" x="115" y="22" />
+		<state id="press" bitmap="buttons" x="138" y="22" />
+		<state id="disabled" bitmap="buttons" x="161" y="22" />		
+	</button>
+
+	<button id="player.volume_on_off" x="316" y="4" w="23" h="22">
+
+		<state id="normal" bitmap="buttons" x="0" y="220" />
+		<state id="over" bitmap="buttons" x="23" y="220" />
+		<state id="press" bitmap="buttons" x="46" y="220" />
+		<state id="normal.second" bitmap="buttons" x="92" y="220" />
+		<state id="over.second" bitmap="buttons" x="115" y="220" />
+		<state id="press.second" bitmap="buttons" x="138" y="220" />
+	</button>
+
+
+	<textArea id="movie.state" x="215" y="33" w="120" h="14" fontSize="8"
+		fontColor="#f1f1f1" />
+	<textArea id="movie.time" x="352" y="33" w="82" h="14" fontSize="8"
+		fontColor="#f1f1f1" />
+
+	<scrollbar id="player.position" x="166" y="4" w="141" h="18" marginLeft="0" marginRight="0">
+
+		<!-- height and width - look up -->
+		<state id="normal" bitmap="background" x="166" y="4" />
+	
+		<!-- width and height MUST be defined here -->
+		<!-- state id="slider.normal" bitmap="buttons" x="184" y="0" w="8" h="14" /-->
+		<state id="slider.normal" bitmap="buttons" x="184" y="0" w="8" h="14" />
+		<state id="slider.disabled" bitmap="buttons" x="192" y="0" w="8" h="14" />
+
+	</scrollbar>
+
+	<scrollbar id="player.volume" x="340" y="4" w="53" h="18" marginLeft="0" marginRight="0">
+	
+		<state id="normal" bitmap="background" x="340" y="4" />
+	
+		<state id="slider.normal" bitmap="buttons" x="184" y="0" w="8" h="14" />
+	</scrollbar>
+
+	</skin>
+
+</player>

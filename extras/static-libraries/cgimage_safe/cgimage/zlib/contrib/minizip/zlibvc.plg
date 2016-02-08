@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlibvc - Win32 ReleaseWithoutCrtdll--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\zlib.rc'
+
+Creating command line "rc.exe /l 0x40c /fo"zlibvc_1/zlib.res" /d "NDEBUG" "C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\zlib.rc"" 
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP93.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_WINDLL" /D "_WIN32" /D "BUILD_ZLIBDLL" /D "ZLIB_DLL" /D "DYNAMIC_CRC_TABLE" /D "ASMV" /FAcs /Fa"zlibvc_1/" /FR"zlibvc_1/" /Fo"zlibvc_1/" /Fd"zlibvc_1/" /FD /c 
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\adler32.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\compress.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\crc32.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\deflate.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\gvmat32c.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\gzio.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\infblock.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\infcodes.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\inffast.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\inflate.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\inftrees.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\infutil.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\trees.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\uncompr.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\unzip.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\zip.c"
+"C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP93.tmp" 
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP94.tmp" with contents
+[
+gvmat32.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib crtdll.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"zlibvc_1/zlib.pdb" /map:"zlibvc_1/zlib.map" /machine:I386 /nodefaultlib /def:".\zlibvc.def" /out:".\zlibvc_1\zlib.dll" /implib:"zlibvc_1/zlib.lib" 
+".\zlibvc_1\adler32.obj"
+".\zlibvc_1\compress.obj"
+".\zlibvc_1\crc32.obj"
+".\zlibvc_1\deflate.obj"
+".\zlibvc_1\gvmat32c.obj"
+".\zlibvc_1\gzio.obj"
+".\zlibvc_1\infblock.obj"
+".\zlibvc_1\infcodes.obj"
+".\zlibvc_1\inffast.obj"
+".\zlibvc_1\inflate.obj"
+".\zlibvc_1\inftrees.obj"
+".\zlibvc_1\infutil.obj"
+".\zlibvc_1\trees.obj"
+".\zlibvc_1\uncompr.obj"
+".\zlibvc_1\unzip.obj"
+".\zlibvc_1\zip.obj"
+".\zlibvc_1\zutil.obj"
+".\zlibvc_1\zlib.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP94.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Coding\!\vc\Projects\Graphics Library\zlib\contrib\minizip\zlib.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+zlib.dll - 1 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

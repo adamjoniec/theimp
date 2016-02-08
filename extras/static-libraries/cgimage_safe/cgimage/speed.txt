@@ -1,0 +1,7 @@
+
+	[png]
+
+ '1280x1024x24'				400 ms
+ '1280x1024x24' with alpha (x32)	450 ms
+ '1280x1024x8'				150 ms
+ '1280x1024x8'	with alpha (x8)		200 ms

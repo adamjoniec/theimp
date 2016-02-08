@@ -1,0 +1,24 @@
+[Data]
+TITLE_MAIN=The Imp
+ERROR_COMPONENT=Component:
+COMPANY_NAME=Softshell
+COMPANY_NAME16=Company
+ERROR_FILEGROUP=File Group:
+ERROR_MOVEDATA=An error occurred during the move data process: %d
+PRODUCT_VERSION=1.00.000
+UNINST_KEY=The Imp
+TITLE_CAPTIONBAR=The Imp Setup
+PRODUCT_NAME16=Product
+FOLDER_NAME=The Imp
+ERROR_FILE=File:
+ERROR_VGARESOLUTION=This program requires VGA or better resolution.
+PRODUCT_KEY=The Imp.exe
+UNINST_DISPLAY_NAME=The Imp
+ERROR_UNINSTSETUP=unInstaller setup failed to initialize.  You may not be able to uninstall this product.
+PRODUCT_NAME=The Imp
+
+[General]
+Language=0009
+Type=STRINGTABLESPECIFIC
+Version=1.00.000
+

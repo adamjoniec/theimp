@@ -1,0 +1,236 @@
+
+<!-- This is BASE FILE for translation -->
+<!-- If you want support 'Th Imp' with your language, just translate all: from="..." to="your language translation" in any text editor (Notepad, Wordpad)-->
+<!-- Than copy translated file to 'Languages' directory and select your language from 'Options' -->
+<!-- If you want to share your language with other people, send to me translated file at adamjoniec@o2.pl -->
+<!-- Remember to fill 'author' field !!! -->
+<!-- Select encoding for your country ( ex. "windows-1250" is for easter europe ), standard is "UTF-8" - if you don't do this, you want be able to check correct 
+syntax in 'Internet explorer' (double-click this file to see what I mean) -->
+<!-- All text displayed in explorer in gray color is comment, so you shouldn't translate it ( it's only here to help you ) -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<translated language="YOUR LANGUAGE" author="" >
+<!-- Of course, replace 'YOUR LANGUAGE' text to your language (ex. 'Spanish' for spanish etc. -->
+
+	<translations>
+	<!-- Movie states (No move, playing etc.) -->
+
+	<!-- If you don't want use 'translation' simply use 't' -->
+	<translation from="No movie loaded" to="" />
+	<translation from="Opening file" to="" />
+	<translation from="Playing" to="" />
+	<translation from="Paused" to="" />
+	<translation from="Stopped" to="" />
+
+	<!-- Buttons ToolTips -->
+	<t from="Close" to=""/>
+	<t from="Minimize" to=""/>
+	<t from="Maximize / Restore" to=""/>
+	<t from="Menu" to=""/>
+	<t from="Resize" to=""/>
+	<t from="Change skin" to=""/>
+	<t from="About" to=""/>
+	<t from="Play" to=""/>
+	<t from="Pause" to=""/>
+	<t from="Play / Pause" to="" />
+	<t from="Fast Forward" to=""/>
+	<t from="Rewind" to=""/>
+	<t from="Stop" to=""/>
+	<t from="Next movie" to=""/>
+	<t from="Prev movie" to="" />
+	<t from="Open movie" to=""/>
+	<t from="Open subtitles" to=""/>
+	<t from="Subtitles On / Off" to="" />
+	<t from="Subtitles delay" to="" />
+	<t from="Fullscreen / Windowed" to="" />
+	<t from="Mode Normal / Compact" to="" />
+	<t from="PanScan On / Off" to=""/>
+	<t from="Setup PanScan" to=""/>
+	<t from="Volume On / Off" to="" />
+	<t from="Show / Hide playlist" to=""/>
+	<t from="Options" to="" />
+
+
+	<!-- Quick Menu Text -->
+	<!-- unchecked#checked -->
+	<t from="Play / Pause" to="" />
+	<t from="Stop" to="" />
+	<t from="Rewind" to="" />
+	<t from="Fast Forward" to="" />
+	<t from="Prev Movie" to=""/>
+	<t from="Next Movie" to=""/>
+	<t from="Playlist" to="" />
+	<t from="Go Fullscreen#Go Windowed" to="" />
+	<t from="PanScan" to="" />
+	<t from="PanScan Mode" to="" />
+	<t from="Auto" to="" />
+	<t from="Wide (16:9)" to=""/>
+	<t from="Zoom 10%" to="" />
+	<t from="Zoom 20%" to="" />
+	<t from="Zoom 25%" to="" />
+	<t from="Zoom 30%" to="" />
+	<t from="Zoom 35%" to="" />
+	<t from="Zoom 40%" to="" />
+	<t from="Zoom 50%" to="" />
+	<t from="Show Subtitles#Hide Subtitles" to=""/>
+	<t from="Open Movie..." to="" />
+	<t from="Open Subtitles..." to="" />
+	<t from="Options..." to=""/>
+	<t from="Movie Properties" to="" />
+	<t from="Skin Browser..." to="" />
+	<t from="Exit" to="" />
+
+	<t from="Open playlist" to="" />
+	<t from="Save playlist" to="" />
+	<t from="Clear playlist" to=""/>
+	<t from="Add file(s)" to=""/>
+	<t from="Remove selected file" to=""/>
+	<t from="Close playlist" to=""/>
+
+	<!-- Keys names -->
+	<t from="Shift" to="" />
+	<t from="Ctrl" to="" />
+	<t from="Alt" to="" />
+	<t from="Space" to="" />
+	<t from="Left" to="" />
+	<t from="Right" to="" />
+	<t from="Up" to="" />
+	<t from="Down" to="" />
+	<t from="Enter" to="" />
+	<t from="Esc" to="" />
+	<t from="Insert" to="" />
+	<t from="Delete" to="" />
+	<t from="Home" to="" />
+	<t from="End" to="" />
+	<t from="PageUp" to="" />
+	<t from="PageDown" to="" />
+	<t from="Bakspace" to="" />
+
+	<!-- All options -->
+
+	<t from="Options" to="" />
+	<t from="Close" to="" />
+	<t from="Default" to="" />
+	<t from="Apply" to="" />
+
+	<t from="Setup" to="" />
+	<t from="File types" to="" />
+	<t from="Options" to="" />
+	<t from="Play" to="" />
+	<t from="Startup" to="" />
+	<t from="Subtitles" to="" />
+	<t from="Additional" to="" />
+	<t from="Time correction" to="" />
+	<t from="Skin browser" to="" />
+	<t from="About" to="" />
+
+	<!-- Property page 'Setup' -->
+
+	<t from="Current language" to="" />
+
+
+	<!-- Property page 'Filetypes' -->
+	<t from="File types" to="" />
+	<t from="Associated extensions" to="" />
+	<t from="Icon" to="" />
+	<t from="Select all" to="" />
+	<t from="Select none" to="" />
+	<t from="Register types when 'The Imp' starts" to="" />
+
+
+	<!-- Property page 'Options' -->
+	<t from="General" to="" />
+	<t from="Playlist" to="" />
+	<t from="Always on top" to="" />
+	<t from="Maximize over task menu" to="" />
+	<t from="Hide cursor and control window when fullscreen after:" to="" />
+	<t from="[ ms ]" to="" />
+	<t from="Maximum playlist files:" to="" />
+	<t from="Hide PLS on mouse left-button click" to="" />
+
+
+	<!-- Property page 'Play' -->
+	<t from="Seeking options" to="" />
+	<t from="General options" to="" />
+	<t from="Rewind \ Fast forward movie by" to="" />
+	<t from="seconds" to="" />
+	<t from="Speed up seek and rewind" to="" />
+	<t from="( experimental, use on your own risk )" to="" />
+	<t from="Loop playback" to="" />
+	<t from="Auto rewind movie" to="" />
+	<t from="Auto play movie when loaded" to="" />
+
+
+	<!-- Property page 'Startup' -->
+	<t from="Open program in" to="" />
+	<t from="mode when no movie to open" to="" />
+	<t from="mode when double-clicking or dragging a movie" to="" />
+	<t from="Normal" to="" />
+	<t from="Compact" to="" />
+	<t from="Fullscreen" to="" />
+	<t from="Last closed" to="" />
+
+	<!-- Property page 'Subtitles' -->
+	<t from="Change font..." to="" />
+	<t from="Font color ..." to="" />
+	<t from="Outline color ..." to="" />
+	<t from="Background color ..." to="" />
+	<t from="Transparent mode:" to="" />
+	<t from="Font outline:" to="" />
+	<t from="Transparent background" to="" />
+	<t from="Short background" to="" />
+	<t from="Region mode precise" to="" />
+	<t from="Overlay (faster)" to="" />
+	<t from="Regions (more compatible)" to="" />
+	<t from="None" to="" />
+	<t from="Thin" to="" />
+	<t from="Bold" to="" />
+	<t from="Example text" to="" />
+
+	<!-- Property page 'Additional'( Subtitles->Additional ) -->
+	<t from="Time properties" to="" />
+	<t from="Additional options" to="" />
+	<t from="Hide subtitles after:" to="" />
+	<t from="seconds" to="" />
+	<t from="Text rows:" to="" />
+	<t from="Row distance:" to="" />
+	<t from="Multi-row direction:" to="" />
+	<t from="Top - Bottom" to="" />
+	<t from="Bottom - Top" to="" />
+	<t from="Autosize" to="" />
+	<t from="Position" to="" />
+
+
+	<!-- Property page 'Time' ( Subtitles->Time ) -->
+	<t from="Offset subtitles" to="" />
+	<t from="Speed up" to="" />
+	<t from="Delay" to="" />
+	<t from="subtitles by" to="" />
+	<t from="[ hh:mm:ss ]" to="" />
+	<t from="Save modified subtitles as..." to="" />
+
+
+	<!-- Property page 'Skin browser' -->
+	<t from="Skin info" to="" />
+	<t from="Preview Not Available" to="y" />
+	<t from="Version:" to="" />
+	<t from="Name:" to="" />
+	<t from="Author:" to="" />
+	<t from="Comment:" to="" />
+
+	<!-- Independent from options, 'Movie properties' -->
+	<t from="Movie properties" to="" />
+	<t from="(*) Picture settings" to="u" />
+	<t from="(*) WinXP only" to="" />
+	<t from="Brightness:" to="" />
+	<t from="Contrast:" to="" />
+	<t from="Saturation:" to="" />
+	<t from="Used filters with property page" to="" />
+	<t from="Properties" to="" />
+	<t from="OK" to="" />
+	<t from="Cancel" to="" />
+
+	<!-- And this is all, you translated all text in 'The Imp' (feel great) , e-mail me at adamjoniec@o2.pl -->
+
+	</translations>
+
+</translated>

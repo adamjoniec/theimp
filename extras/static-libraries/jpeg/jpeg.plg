@@ -1,0 +1,133 @@
+--------------------Configuration: jpeg - Win32 Debug--------------------
+Begining build with project "C:\CODING\!\vc\Static Library\jpeg\jpeg.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /GX /Z7 /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/jpeg.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o"Debug/jpeg.bsc" "
+			"Library Manager" with flags "/nologo /out:"Debug\jpeg.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP6251.TMP" with contents </nologo /MLd /W3 /GX /Z7 /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/jpeg.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\CODING\!\vc\Static Library\jpeg\files\Jbsmooth.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jcarith.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jccolor.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jcdeflts.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jcexpand.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jchuff.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jcmaster.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jcmcu.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jcpipe.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jcsample.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jdarith.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jdcolor.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jddeflts.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jdhuff.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jdmaster.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jdmcu.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jdpipe.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jdsample.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jerror.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jfwddct.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jmemmgr.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jmemsys.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jquant1.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jquant2.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jrdgif.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jrdjfif.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jrdppm.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jrdrle.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jrdtarga.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jrevdct.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\jrwmem.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jutils.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jwrgif.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jwrjfif.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jwrppm.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jwrrle.c"
+"C:\CODING\!\vc\Static Library\jpeg\files\Jwrtarga.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6251.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP6252.TMP" with contents </nologo /out:"Debug\jpeg.lib" 
+".\Debug\Jbsmooth.obj"
+".\Debug\Jcarith.obj"
+".\Debug\Jccolor.obj"
+".\Debug\Jcdeflts.obj"
+".\Debug\Jcexpand.obj"
+".\Debug\Jchuff.obj"
+".\Debug\Jcmaster.obj"
+".\Debug\Jcmcu.obj"
+".\Debug\Jcpipe.obj"
+".\Debug\Jcsample.obj"
+".\Debug\Jdarith.obj"
+".\Debug\Jdcolor.obj"
+".\Debug\Jddeflts.obj"
+".\Debug\Jdhuff.obj"
+".\Debug\Jdmaster.obj"
+".\Debug\Jdmcu.obj"
+".\Debug\Jdpipe.obj"
+".\Debug\Jdsample.obj"
+".\Debug\Jerror.obj"
+".\Debug\Jfwddct.obj"
+".\Debug\Jmemmgr.obj"
+".\Debug\Jmemsys.obj"
+".\Debug\Jquant1.obj"
+".\Debug\Jquant2.obj"
+".\Debug\Jrdgif.obj"
+".\Debug\Jrdjfif.obj"
+".\Debug\Jrdppm.obj"
+".\Debug\Jrdrle.obj"
+".\Debug\Jrdtarga.obj"
+".\Debug\Jrevdct.obj"
+".\Debug\jrwmem.obj"
+".\Debug\Jutils.obj"
+".\Debug\Jwrgif.obj"
+".\Debug\Jwrjfif.obj"
+".\Debug\Jwrppm.obj"
+".\Debug\Jwrrle.obj"
+".\Debug\Jwrtarga.obj">
+Creating command line "link.exe -lib @C:\WINDOWS\TEMP\RSP6252.TMP" 
+Compiling...
+Jbsmooth.c
+Jcarith.c
+Jccolor.c
+Jcdeflts.c
+Jcexpand.c
+Jchuff.c
+Jcmaster.c
+Jcmcu.c
+Jcpipe.c
+Jcsample.c
+Jdarith.c
+Jdcolor.c
+Jddeflts.c
+Jdhuff.c
+Jdmaster.c
+Jdmcu.c
+Jdpipe.c
+Jdsample.c
+Jerror.c
+Jfwddct.c
+Jmemmgr.c
+Jmemsys.c
+Jquant1.c
+Jquant2.c
+Jrdgif.c
+Jrdjfif.c
+Jrdppm.c
+Jrdrle.c
+Jrdtarga.c
+Jrevdct.c
+jrwmem.c
+Jutils.c
+Jwrgif.c
+Jwrjfif.c
+Jwrppm.c
+Jwrrle.c
+Jwrtarga.c
+Creating library...
+
+
+
+jpeg.lib - 0 error(s), 0 warning(s)

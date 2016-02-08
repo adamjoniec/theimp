@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////////////////
+///////////////////InstallShield Media Library Report Summary///////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+Media Name      : Default
+Report Filename : C:\My Installations\The Imp\Media\Default\Report Files\10-10-2002 7.44.46PM.rpt
+Date            : 10/10/2002
+Time            : 7:44PM
+
+Number of Components:                3 
+Number of File Groups:               1 
+Number of Files:                     7 
+Total Size of Files:           721,386 (bytes)
+
+==========
+COMPONENTS
+==========
+
+
+     Program Files
+     Example Files
+     Help Files
+
+
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////Report Details/////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+
+================================================================================
+                           COMPONENT: "Program Files"
+================================================================================
+
+SUMMARY:
+    Total Files:                7 (files for this component only)
+    Source Bytes:         721,386 (files for this component only)
+
+
+                **** File Group: "Program Executable Files" ****
+
+
+<Directory>: C:\Programy\Players\The Imp
+
+    Filename                    Date        Time      Size         Version      
+    --------------------------  ----------  --------  -----------  -------------
+    language_base.xml           10/10/2002  09:55:00        7,902               
+    register.url                10/09/2002  09:08:30           64               
+    skin_tutorial.xml           10/10/2002  19:41:28       14,458               
+    The Imp.exe                 10/10/2002  15:46:18      524,292  1.0.0.1      
+    --------------------------  ----------  --------  -----------  -------------
+    Count=4                                               546,716               
+
+
+<Directory>: C:\Programy\Players\The Imp\Skins
+
+    Filename                    Date        Time      Size         Version      
+    --------------------------  ----------  --------  -----------  -------------
+    bestplayer.zip              10/06/2002  00:21:16       28,224               
+    divxplayer.zip              10/06/2002  00:34:20      143,398               
+    --------------------------  ----------  --------  -----------  -------------
+    Count=2                                               171,622               
+
+
+<Directory>: C:\Programy\Players\The Imp\Languages
+
+    Filename                    Date        Time      Size         Version      
+    --------------------------  ----------  --------  -----------  -------------
+    polish.zip                  10/06/2002  02:02:50        3,048               
+    --------------------------  ----------  --------  -----------  -------------
+    Count=1                                                 3,048               

@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gimage_test - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1A5.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/gimage_test.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Coding\!\vc\Projects\Graphics Library\gimage_test\gimage_test.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1A5.tmp" 
+Creating temporary file "C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1A6.tmp" with contents
+[
+../gimage/lib/gimage.lib archivefile.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/gimage_test.pdb" /machine:I386 /out:"Release/gimage_test.exe" 
+".\Release\gimage_test.obj"
+".\Release\StdAfx.obj"
+".\Release\gimage_test.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\SAuron\USTAWI~1\Temp\RSP1A6.tmp"
+<h3>Output Window</h3>
+Compiling...
+gimage_test.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+gimage_test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

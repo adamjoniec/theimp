@@ -1,0 +1,4 @@
+
+	[zip]
+
+ uncompress: 12MB(compressed size) pers secondon on P700
